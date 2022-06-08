@@ -55,7 +55,7 @@ function validateEmail()
     }
     if(!email.match(/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/))
     {
-        emailError.innerHTML = 'enter valid enailID';
+        emailError.innerHTML = 'enter valid enail';
         return false;
     }
     emailError.innerHTML = '<i class="fas fa-check-circle"></i>';
