@@ -50,7 +50,7 @@ function validateEmail()
     var email = document.getElementById('contact-email').value;
     if(email.length == 0)
     {
-        emailError.innerHTML = 'EmailID no is require';
+        emailError.innerHTML = 'Email is require';
          return false;
     }
     if(!email.match(/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/))
